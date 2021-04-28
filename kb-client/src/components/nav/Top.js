@@ -14,7 +14,10 @@ export default function Top() {
 
     return (
         <section style={topStyle}>
-            Top
+             <i className="icons devicon-github-original-wordmark"></i>
+            <i className="icons devicon-linkedin-plain-wordmark"></i>
+            <img src="procreate-icon.png" style={{height: "12vw"}}></img>
+            <p className="icons">@</p>
         </section>
     )
 }
